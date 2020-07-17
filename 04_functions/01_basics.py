@@ -14,6 +14,6 @@ def greet():
     print("I am learning functions in python")
 
 
-print(greet())
+greet()
 print(add(4, 5))
 print(sub(10, 8))
