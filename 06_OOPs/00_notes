@@ -1,0 +1,21 @@
+Python is famous because it support all programming paradigm
+
+what is object and why it is imp?
+In real world everything we use is an object. 
+Object will have attributes and behaviour.
+As a object we do something and store something.
+
+What are methods?
+This are similar to functions called as objects in OOPs.
+
+Why classes are important?
+It is important because it gives a design of object.
+Which we can use to create so many instances i.e. objects.
+
+ Every object has his own variables and own methods which work together
+
+ __init__ is a constructor
+
+ Every time we create object it take some space different for different objects.
+
+ self is important to work with current object i.e. with current instance.
