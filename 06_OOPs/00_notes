@@ -19,3 +19,13 @@ Which we can use to create so many instances i.e. objects.
  Every time we create object it take some space different for different objects.
 
  self is important to work with current object i.e. with current instance. 
+
+ Namespace is an area were we create and store objects.
+ 			-class namespace
+ 			-Instance namespace
+
+ There are two types of instances
+ 		1. Accessor methods - It is used to fetch value
+ 		2. Mutator methods - It is used to modefie the value
+
+Class method 
