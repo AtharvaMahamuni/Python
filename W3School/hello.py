@@ -1,17 +1,22 @@
+class Computer:
 
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[1])
+    def __init__(self):
+        self.__maxprice = 900
 
-print(thislist[-1])
+    def sell(self):
+        print("Selling Price: {}".format(self.__maxprice))
 
-print(thislist[2:5])
+    def setMaxPrice(self, price):
+        self.__maxprice = price
 
-print(thislist[:4])
 
-print(thislist[2:])
+c = Computer()
+# c.sell()
 
-print(thislist[-4:-1])
+# change the price
+c.__maxprice = 1000
+c.sell()
 
-if "apple" in thislist:
-  print("Yes, 'apple' is in the fruits list")
-
+# using setter function
+# c.setMaxPrice(1000)
+# c.sell()
