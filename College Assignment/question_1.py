@@ -1,5 +1,5 @@
 
-import numpy as np 
+import numpy as np
 
 n = int(input())
 
@@ -27,7 +27,7 @@ for dataList in data:
     elif dataList == num2:
         ind2.append(i)
     i += 1
-        
+
 # print(ind1)
 # print(ind2)
 
