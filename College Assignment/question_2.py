@@ -19,4 +19,4 @@ else:
         i += 1
 
     for i in result:
-        print(i, end=" "),
+        print(i, end=" ")
