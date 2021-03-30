@@ -137,6 +137,20 @@ class LinkedList:
             temp = temp.next
         print()
 
+    def searchNode(self, key):
+        temp = self.head
+        isIt = False
+
+        while temp:
+            if temp.data == key:
+                isIt = True
+            temp = temp.next
+
+        if isIt:
+            print("Key is Present")
+        else:
+            print("Key is not Present")
+
 
 ll = LinkedList()
 
@@ -177,3 +191,7 @@ ll.traverse()
 ll.deleteAtGivenLocation(3)
 ll.deleteAtGivenLocation(1)
 ll.traverse()
+
+
+ll.searchNode(50)
+ll.searchNode(40)
