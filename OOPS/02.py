@@ -5,8 +5,8 @@ class Parrot:
     def __init__(self):
         self.__name = 'blu'
 
-    def display(self):
-        print("{} is bird".format(self.__name))
+    # def display(self):
+    #     print("{} is bird".format(self.__name))
 
 
 blu = Parrot()
