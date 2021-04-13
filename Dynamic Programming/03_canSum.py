@@ -37,3 +37,4 @@ print(canSum(7, [4, 2], {}))  # False
 print(canSum(8, [4, 2], {}))  # True
 print(canSum(8, [6, 5, 7], {}))  # False
 print(canSum(300, [7, 14], {}))  # False
+print(canSum(300, [7, 14, 5], {}))  # True
