@@ -51,11 +51,12 @@ def bestSum(targetSum, numbers, memo={}):
     return memo[targetSum]
 
 
-print(bestSum(7, [2, 3], {}))
-print(bestSum(9, [2, 3, 4], {}))
-print(bestSum(8, [2, 3, 4], {}))
-print(bestSum(5, [2, 4], {}))
-print(bestSum(0, [1, 2, 3], {}))
-print(bestSum(36, [7, 6, 3, 2, 5], {}))
-print(bestSum(300, [7, 14], {}))
+print(bestSum(7, [2, 3], {}))  # [3, 2, 2]
+print(bestSum(9, [2, 3, 4], {}))  # [4, 3, 2]
+print(bestSum(8, [2, 3, 4], {}))  # [4, 4]
+print(bestSum(5, [2, 4], {}))  # None
+print(bestSum(0, [1, 2, 3], {}))  # []
+print(bestSum(36, [7, 6, 3, 2, 5], {}))  # [2, 6, 7, 7, 7, 7]
+print(bestSum(300, [7, 14], {}))  # None
 print(bestSum(300, [7, 14, 15], {}))
+# [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
