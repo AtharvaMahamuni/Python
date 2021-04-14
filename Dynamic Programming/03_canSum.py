@@ -1,16 +1,19 @@
 
 # Classical Solution
-# def canSum(targetSum, numbers):
-#     if targetSum == 0:
-#         return True
-#     if targetSum < 0:
-#         return False
+'''
+def canSum(targetSum, numbers):
+    if targetSum == 0:
+        return True
+    if targetSum < 0:
+        return False
 
-#     for i in numbers:
-#         # if i <= targetSum: #This condition is possible at 2 places.
-#         if (canSum(targetSum - i, numbers)) == True:
-#             return True
-#     return False
+    for i in numbers:
+        # if i <= targetSum: #This condition is possible at 2 places.
+        if (canSum(targetSum - i, numbers)) == True:
+            return True
+    return False 
+    # This false return from outside the for loop because here we want to check the all possibilites of numbers from an array
+'''
 
 
 # DP Impelentation with memoization
