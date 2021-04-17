@@ -22,8 +22,8 @@ def fib(n, memo={}):
         return memo[n]
 
 
-print(fib(5))
-print(fib(6))
-print(fib(7))
-print(fib(50))
-print(fib(150))
+print(fib(5, {}))
+print(fib(6, {}))
+print(fib(7, {}))
+print(fib(50, {}))
+print(fib(150, {}))

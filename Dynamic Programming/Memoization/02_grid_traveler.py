@@ -15,6 +15,7 @@ def gridTraveler(m, n):
 # DP implementation
 # Memoization
 
+
 def gridTraveler(m, n, memo={}):
 
     key = str(m)+','+str(n)
@@ -30,11 +31,11 @@ def gridTraveler(m, n, memo={}):
         return memo[key]
 
 
-print(gridTraveler(1, 1))
-print(gridTraveler(2, 2))
-print(gridTraveler(2, 3))
-print(gridTraveler(3, 2))
-print(gridTraveler(10, 10))
+print(gridTraveler(1, 1, {}))
+print(gridTraveler(2, 2, {}))
+print(gridTraveler(2, 3, {}))
+print(gridTraveler(3, 2, {}))
+print(gridTraveler(10, 10, {}))
 
 # This will take a lot of time due to to many recursive call
 print(gridTraveler(20, 20))
