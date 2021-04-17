@@ -3,14 +3,18 @@ def fib(n):
     table = [0 for x in range(n+1)]
     table[1] = 1
 
-    for i in range(n):
-        table[i+1] += table[i]
-        if i != n-1:
-            table[i+2] += table[i]
+    # for i in range(n):
+    #     table[i+1] += table[i]
+    #     if i != n-1:
+    #         table[i+2] += table[i]
+
+    for i in range(2, n+1):
+        table[i] = table[i - 2] + table[i - 1]
 
     return table[n]
 
 
+print(fib(1))
 print(fib(5))
 print(fib(6))
 print(fib(7))
