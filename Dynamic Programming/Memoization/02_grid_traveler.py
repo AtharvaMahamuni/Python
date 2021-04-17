@@ -38,4 +38,4 @@ print(gridTraveler(3, 2, {}))
 print(gridTraveler(10, 10, {}))
 
 # This will take a lot of time due to to many recursive call
-print(gridTraveler(20, 20))
+print(gridTraveler(20, 20, {}))
