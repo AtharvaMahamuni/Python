@@ -1,4 +1,12 @@
+number=[1,2,3,4,5]
 
-items = [0]
+def square(num):
+    return num*num
+    
+# number= list(map(square,number))
 
-print(items[-1])
+number = [n*n for n in number]
+
+print(number)
+
+
