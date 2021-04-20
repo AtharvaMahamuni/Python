@@ -8,7 +8,7 @@ def canConstruct(target, wordBank):
         if table[i] == True:
             for word in wordBank:
                 # If the word matches at the string present at postion i
-                if (target[i: i+len(word)] == word):
+                if (target[i:i+len(word)] == word):
                     table[i+len(word)] = True
 
     return table[len(target)]
