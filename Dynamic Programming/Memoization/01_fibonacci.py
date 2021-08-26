@@ -12,18 +12,26 @@ def fib(n):
 # Type I = Memoization
 
 
-def fib(n, memo={}):
-    if n in memo.keys():
+# def fib(n, memo={}):
+#     if n in memo.keys():
+#         return memo[n]
+#     elif n <= 2:
+#         return 1
+#     else:
+#         memo[n] = fib(n-1, memo) + fib(n-2, memo)
+#         return memo[n]
+
+def fib(n, memo={1:0, 2:1}):
+    if n in memo:
         return memo[n]
-    elif n <= 2:
-        return 1
+
     else:
         memo[n] = fib(n-1, memo) + fib(n-2, memo)
         return memo[n]
 
 
-print(fib(5, {}))
-print(fib(6, {}))
-print(fib(7, {}))
-print(fib(50, {}))
-print(fib(150, {}))
+print(fib(5))
+print(fib(6))
+print(fib(7))
+print(fib(50))
+print(fib(150))
