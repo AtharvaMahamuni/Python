@@ -1,3 +1,8 @@
 {
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "yapf",
+    "files.associations": {
+        "*.rmd": "markdown",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
 }
