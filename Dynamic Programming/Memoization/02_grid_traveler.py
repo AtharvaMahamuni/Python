@@ -31,7 +31,7 @@ def gridTraveler(m, n, memo={}):
         return memo[key]
 
 
-print(gridTraveler(1, 1, {}))
+print(gridTraveler(5, 5, {}))
 print(gridTraveler(2, 2, {}))
 print(gridTraveler(2, 3, {}))
 print(gridTraveler(3, 2, {}))
