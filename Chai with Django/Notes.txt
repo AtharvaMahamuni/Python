@@ -1,0 +1,10 @@
+# Course on YouTube "Chai with Django"
+
+Applications in Django gets build very fast to ship, you will endup building complicated systems with ease in no time.
+
+Python folks mostly prefer to do development in code sandbox or in virtual environment.
+```python3 -m venv .venv```
+
+Alternately we can use "uv" when it is installed, it is faster than pip written in RUST.
+
+Python community is so good in documentation, it seems they write more markdown than Python.
